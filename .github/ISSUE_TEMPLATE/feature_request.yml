@@ -3,7 +3,7 @@
 name: "Solicitud de Nueva Característica"
 description: "Plantilla para sugerir una nueva funcionalidad o característica en la aplicación"
 title: "[Feature]: "
-labels: ["enhancement", "feature request"]
+labels: ["feature request"]
 body:
   - type: markdown
     attributes:
