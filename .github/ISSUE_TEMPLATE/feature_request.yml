@@ -38,7 +38,7 @@ body:
     id: solution-ideas
     attributes:
       label: "Nuevas funciones para el area "
-      description: "Si tienes ideas sobre cómo implementar esta característica, descríbelas aquí."
-      placeholder: "Especificar el area de la nueva funcion,o si ya existe que tiene que mejorar..."
+      description: "Especificar el area de la nueva funcion,o si ya existe que tiene que mejorar..."
+      placeholder: "En area de compras.."
     validations:
       required: false
