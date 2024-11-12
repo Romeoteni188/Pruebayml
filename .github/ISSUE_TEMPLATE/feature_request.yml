@@ -1,3 +1,5 @@
+# encabezados para la plantilla
+---
 name: "Solicitud de Nueva Característica"
 description: "Plantilla para sugerir una nueva funcionalidad o característica en la aplicación"
 title: "[Feature]: "
@@ -11,9 +13,9 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: "Descripción de la característica"
+      label: "Descripción de la nueva característica"
       description: "Descricion clara  concisa la funcionalidad que estás proponiendo."
-      placeholder: "Ejemplo: Me gustaría que la aplicación tenga una función para luz..."
+      placeholder: " Me gustaría que la aplicación tenga una función para luz..."
     validations:
       required: true
 
@@ -22,7 +24,7 @@ body:
     attributes:
       label: "Problema que resuelve"
       description: "Describe el problema actual que esta característica ayudaría a resolver o mejorar."
-      placeholder: "Ejemplo: Actualmente, no es posible..."
+      placeholder: "Actualmente, no es posible..."
     validations:
       required: true
 
@@ -31,7 +33,7 @@ body:
     attributes:
       label: "Ideas de solución"
       description: "Si tienes ideas sobre cómo implementar esta característica, descríbelas aquí."
-      placeholder: "Ejemplo: Podría implementarse agregando un botón en..."
+      placeholder: "Podría implementarse agregando un botón en..."
     validations:
       required: false
 
@@ -40,7 +42,7 @@ body:
     attributes:
       label: "Alternativas consideradas"
       description: "¿Has considerado otras formas de solucionar este problema? Si es así, descríbelas aquí."
-      placeholder: "Ejemplo: He intentado usar otras funciones, pero..."
+      placeholder: "He intentado usar otras funciones, pero..."
     validations:
       required: false
 
@@ -49,6 +51,6 @@ body:
     attributes:
       label: "Contexto adicional"
       description: "Agrega cualquier información adicional que pueda ser útil para entender mejor tu propuesta."
-      placeholder: "Ejemplo: Ejemplos de casos de uso, contexto del negocio, referencias..."
+      placeholder: "Diagrama de casos de uso, contexto del negocio, referencias..."
     validations:
       required: false
