@@ -29,7 +29,7 @@ body:
     attributes:
       label: "Descripción de la nueva característica, funcion, modulo"
       description: "Descripción clara y concisa de la funcionalidad."
-      placeholder: "Me gustaría que la aplicación tenga una función de modo oscuro."
+      placeholder: "Me gustaría que la aplicación tenga una función de."
     validations:
       required: true
 
@@ -39,6 +39,6 @@ body:
     attributes:
       label: "Justificacion "
       description: "Especificar el area de la nueva funcion,o si ya existe que tiene que mejorar."
-      placeholder: "Especificar el ara de nueva funcion"
+      placeholder: "Especificar el area de nueva funcion"
     validations:
       required: true
