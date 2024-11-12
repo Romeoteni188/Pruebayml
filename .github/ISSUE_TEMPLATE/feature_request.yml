@@ -1,0 +1,54 @@
+name: "Solicitud de Nueva Característica"
+description: "Plantilla para sugerir una nueva funcionalidad o característica en la aplicación"
+title: "[Feature]: "
+labels: ["enhancement", "feature request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por tu interés en mejorar la aplicación. Por favor, proporciona la siguiente información para ayudarnos a entender y evaluar tu propuesta.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "Descripción de la característica"
+      description: "Descricion clara  concisa la funcionalidad que estás proponiendo."
+      placeholder: "Ejemplo: Me gustaría que la aplicación tenga una función para luz..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: user-problem
+    attributes:
+      label: "Problema que resuelve"
+      description: "Describe el problema actual que esta característica ayudaría a resolver o mejorar."
+      placeholder: "Ejemplo: Actualmente, no es posible..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution-ideas
+    attributes:
+      label: "Ideas de solución"
+      description: "Si tienes ideas sobre cómo implementar esta característica, descríbelas aquí."
+      placeholder: "Ejemplo: Podría implementarse agregando un botón en..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternativas consideradas"
+      description: "¿Has considerado otras formas de solucionar este problema? Si es así, descríbelas aquí."
+      placeholder: "Ejemplo: He intentado usar otras funciones, pero..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Contexto adicional"
+      description: "Agrega cualquier información adicional que pueda ser útil para entender mejor tu propuesta."
+      placeholder: "Ejemplo: Ejemplos de casos de uso, contexto del negocio, referencias..."
+    validations:
+      required: false
