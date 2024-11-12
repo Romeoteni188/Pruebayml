@@ -1,11 +1,11 @@
-# encabezados para la plantilla
+# Encabezados para la plantilla
 ---
-name: "Nueva Característica, Modulo, Función"
+name: "Nueva Característica, Módulo, Función"
 description: "Sugerencia de una nueva funcionalidad en el módulo de compras"
 title: "[Feature]: "
 labels: ["feature request"]
 
-# cuerpo de la estructura yml
+# Cuerpo de la estructura YAML
 body:
   - type: markdown
     attributes:
@@ -15,11 +15,11 @@ body:
   - type: dropdown
     id: tipo
     attributes:
-      label: "Tipo"
-      description: "Selecciona la opción que corresponda a la nueva función."
+      label: "Tipo de implementación"
+      description: "Selecciona la opción que corresponda a la nueva implementación."
       options:
-        - "Mejora de una funcion existente"
-        - "Implemenacion de nueva funcion"
+        - "Mejora de una función existente"
+        - "Implementación de una nueva funcionalidad"
         # - "Funcionalidad existente"
     validations:
       required: true
@@ -27,9 +27,9 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: "Descripción de la nueva característica, funcion, modulo"
-      description: "Descripción clara y concisa de la funcionalidad."
-      placeholder: "Me gustaría que tenga una función de."
+      label: "Descripción de la nueva característica"
+      description: "Descripción clara y concisa de la funcionalidad a implementar o mejorar."
+      placeholder: "Me gustaría que tenga una función de..."
     validations:
       required: true
 
@@ -37,8 +37,8 @@ body:
   - type: textarea
     id: solution-ideas
     attributes:
-      label: "Justificacion "
-      description: "Especificar el area de la nueva funcion,o si ya existe que tiene que mejorar."
-      placeholder: "Especificar el area de nueva funcion"
+      label: "Justificación"
+      description: "Indica y justifica por qué es necesario implementar esta mejora o funcionalidad."
+      placeholder: "Necesito esta funcionalidad ya que me ayuda a resolver x situación."
     validations:
       required: true
