@@ -1,9 +1,11 @@
 # encabezados para la plantilla
 ---
-name: "Solicitud de Nueva Característica"
-description: "Plantilla para sugerir una nueva funcionalidad o característica en la aplicación"
+name: "Nueva Característica o Función"
+description: "Se sugerire una nueva funcionalidad en modulo de compraras"
 title: "[Feature]: "
 labels: ["feature request"]
+# cuerpo de la estructura yml
+#tipo, id, los atributos similar a html, las validaciones y los campos requeridos
 body:
   - type: markdown
     attributes:
@@ -15,7 +17,7 @@ body:
     attributes:
       label: "Descripción de la nueva característica"
       description: "Descricion clara  concisa la funcionalidad que estás proponiendo."
-      placeholder: " Me gustaría que la aplicación tenga una función para luz..."
+      placeholder: " Me gustaría que la aplicación tenga una función del modo oscuro..."
     validations:
       required: true
 
@@ -24,7 +26,7 @@ body:
     attributes:
       label: "Problema que resuelve"
       description: "Describe el problema actual que esta característica ayudaría a resolver o mejorar."
-      placeholder: "Actualmente, no es posible..."
+      placeholder: "Nos ayuda con el cansancio bisual de la pantalla..."
     validations:
       required: true
 
@@ -42,7 +44,7 @@ body:
     attributes:
       label: "Alternativas consideradas"
       description: "¿Has considerado otras formas de solucionar este problema? Si es así, descríbelas aquí."
-      placeholder: "He intentado usar otras funciones, pero..."
+      placeholder: "He intentado usar otras funciones, pero no estan disponibles..."
     validations:
       required: false
 
