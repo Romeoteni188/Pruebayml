@@ -27,9 +27,9 @@ body:
       label: "Tipo"
       description: "Selecciona la opción que corresponda a la nueva función."
       options:
-        - "Nuevo módulo"
-        - "Nueva funcionalidad"
-        - "Funcionalidad existente"
+        - "Mejora de la funcion existente"
+        - "Implemenacion de nueava funcion"
+        # - "Funcionalidad existente"
     validations:
       required: true
 
@@ -37,8 +37,8 @@ body:
   - type: textarea
     id: solution-ideas
     attributes:
-      label: "Ideas de las nuevas funciones/características"
+      label: "Nuevas funciones en area "
       description: "Si tienes ideas sobre cómo implementar esta característica, descríbelas aquí."
-      placeholder: "Podría implementarse agregando un botón en..."
+      placeholder: "Especificar el area de la nueva funcion,o si ya existe que tiene que mejorar..."
     validations:
       required: false
