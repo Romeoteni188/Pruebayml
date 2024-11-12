@@ -26,7 +26,7 @@ body:
     attributes:
       label: "Problema que resuelve"
       description: "Describe el problema actual que esta característica ayudaría a resolver o mejorar."
-      placeholder: "Nos ayuda con el cansancio bisual de la pantalla..."
+      placeholder: "Nos ayuda con el cansancio visual de la pantalla..."
     validations:
       required: true
 
